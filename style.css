@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.first{
+    height: 98px;
+    background-color:rgb(26, 112, 76);
+    display: flex;
+    justify-content: space-evenly;
+   animation: firstone 2s linear 1s  infinite ;
+}
+
+@keyframes firstone{
+    from{background-color:rgb(26, 112, 76)}
+    to{background-color: rgb(96, 108, 34)}
+}
+
+#p{
+    display:inline;
+    justify-content: center;
+    text-align: center;
+   margin-top:24px;
+   font-size: 30px;
+}
+
+#idea{
+    font-size:34px;
+    color:rgb(10, 10, 59);
+}
+
+h1{
+    margin-top:24px;
+    font-size:36px;
+    color:rgb(49, 6, 6) ;
+}
+
+.second{
+    
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px; 
+    text-align: center;
+    background-image: url("https://www.eastpoint.ac.in/wp-content/uploads/2020/02/EPBlog.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 732px;
+    gap: 24px;
+}
+
+.idea{
+    display:grid;
+    gap:43px;
+}
+
+.container {
+    display: flex;
+  }
+
+  .container {
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  
+  .half {
+    width: 50%;
+    float: left; 
+    box-sizing: border-box;
+    background-color: azure;
+    font-size:25px;
+    margin: 7px;
+    margin-top: 8px;
+  }
+  
+  .containers{
+    display: flex;
+    background-color:antiquewhite;
+  }
+ .halfs-one{
+    width: 50%;
+    float: left; 
+    box-sizing: border-box;
+   color: azure;
+    font-size:25px;
+    margin:23px;
+    margin-top: 8px;
+ } 
+ .halfs-two{
+    width: 50%;
+    float: left; 
+    box-sizing: border-box;
+   color: azure;
+    font-size:25px;
+    margin:23px;
+    margin-top:8px;
+    margin-right:34px;
+ } 
+.services{
+   font-size: 28px;
+   text-align:14px;
+   margin-left:20px;
+   background-color: beige;
+}
